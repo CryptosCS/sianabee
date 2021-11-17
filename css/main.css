@@ -1,0 +1,119 @@
+/* Navigation and header START*/
+.nav-item {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(116, 49, 49);
+}
+
+.navbar-container {
+    position: unset;
+    top: 10px;
+}
+
+@media (min-width: 1350px) {
+    header.navbar {
+        margin: 0 10%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .navbar-container {
+        position: absolute;
+    }
+}
+/* Navigation and header END */
+
+/* Landing page START*/
+
+main {
+    background-color: rgb(255 234 234);
+    background-image: url(../images/bg-blob5.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 72% auto;
+    opacity: 1;
+}
+
+section.page-heading {
+    padding-top: 0px;
+    background-image: url(../images/bg-blob3.png);
+    background-position: center left;
+    background-repeat: no-repeat; 
+    background-size: 10% auto;
+}
+
+h1.page-heading {
+    font-family: "Nunito", arial, sans-serif;
+    font-weight: 900;
+    font-size: 66px;
+}
+
+p.page-heading-text {
+    font-family: "Nunito", arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.orange-text {
+    color: #ff9f0d;
+}
+
+
+
+
+@media (min-width: 1000px) {
+    section.page-heading {
+        padding-top: 130px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .page-heading-image {
+        width: 75%;
+    }    
+}
+.gradient-btn {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 100px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    padding: 10px 20px;
+    text-decoration: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.gradient-btn.orange-btn {
+    background: rgb(242,105,0);
+    background: linear-gradient(90deg ,rgb(255 124 124) 26%, rgb(255 214 121) 100%, rgb(255 187 91) 100%);
+    box-shadow: 0 5px 15px rgb(242 97 103 / 40%);
+}
+
+.gradient-btn:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: black;
+}
+/* Landing page END*/
