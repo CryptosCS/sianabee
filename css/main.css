@@ -24,6 +24,15 @@
     }
 }
 
+main {
+    background-color: rgb(255 234 234);
+    background-image: url(../images/bg-blob5.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 72% auto;
+    opacity: 1;
+}
+
 @media (min-width: 1000px) {
     .navbar-container {
         position: absolute;
@@ -33,14 +42,7 @@
 
 /* Landing page START*/
 
-main {
-    background-color: rgb(255 234 234);
-    background-image: url(../images/bg-blob5.png);
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 72% auto;
-    opacity: 1;
-}
+
 
 section.page-heading {
     padding-top: 0px;
@@ -79,8 +81,13 @@ p.page-heading-text {
 @media (max-width: 1200px) {
     .page-heading-image {
         width: 75%;
-    }    
+    }
+    
+    main {
+        background-size: 115% auto;
+    }
 }
+
 .gradient-btn {
     width: 200px;
     font-size: 16px;
